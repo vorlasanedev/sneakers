@@ -1,15 +1,16 @@
 import 'package:sneakers/features/todo/domain/entities/todo.dart';
+import 'package:sneakers/features/todo/shared/errors/failure.dart';
+import 'package:dartz/dartz.dart';
 
 abstract class TodoRepository {
-  // Add TODO
-  Future<Todo> addTodo(Todo todo);
+  Future<Either<Failure, Todo>> addTodo(Todo todo);
 
   // Edit TODO
-  Future<Todo> editTodo(Todo todo);
+  Future<Either<Failure, Todo>> editTodo(Todo todo);
 
   // Delete TODO
-  Future<Todo> deleteTodo(Todo todo);
+  Future<Either<Failure, Todo>> deleteTodo(Todo todo);
 
   // Get all TODOs
-  Future<List<Todo>> getAllTodos();
+  Future<Either<Failure, List<Todo>>> getAllTodos();
 }

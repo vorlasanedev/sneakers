@@ -28,6 +28,8 @@ flutterfire configure
 firebase_core: ^4.1.0
 cloud_firestore: ^6.0.1
 
+dartz: ^0.10.1 (allow to return type Either)
+
 3. initial firebase to main() app
 <img src="screenshot/initial_firebase.png">
 4. Add todo remote and link to todo_remote_impl.dart
