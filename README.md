@@ -30,4 +30,6 @@ cloud_firestore: ^6.0.1
 
 3. initial firebase to main() app
 <img src="screenshot/initial_firebase.png">
-<img src="screenshot/strucuture_todo1.png">
+4. Add todo remote and link to todo_remote_impl.dart
+<img src="screenshot/addTodoRemote_json.png">
+<img src="screenshot/addTodoRemote_jsonserail.png">
