@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885119532349",
+    "project_id": "flutter-clean-sneakers",
+    "storage_bucket": "flutter-clean-sneakers.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885119532349:android:aab63b7ad8fc4582dc9954",
+        "android_client_info": {
+          "package_name": "com.toey.sneakers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmDbSY3EuIBq-_24aDssOiba5yqa6ZWNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

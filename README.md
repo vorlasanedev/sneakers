@@ -7,3 +7,24 @@ flutter create -e sneakers --org "com.toey"
 
 # Create Clean strucuture
 <img src="screenshot/strucuture_todo1.png">
+# package 
+1. connect firebase to flutter using comand run
+```
+brew tap firebase/tap
+brew install firebase-cli
+flutterfire --version
+firebase login
+firebase projects:list --json
+
+sudo gem install xcodeproj
+sudo gem update --system
+
+flutterfire configure
+```
+2. add firebase package to depedency
+
+firebase_core: ^4.1.0
+cloud_firestore: ^6.0.1
+
+3. initial firebase to main() app
+<img src="screenshot/initial_firebase.png">
